@@ -1,0 +1,10 @@
+<script type="text/javascript">
+document.onkeydown = function(event) {
+    if (event.ctrlKey && (event.keyCode == 85) || (event.ctrlKey && event.shiftKey && (event.keyCode == 73)) || event.keyCode == 123) {
+        return false
+    }
+}
+document.oncontextmenu = function(){
+    return false
+}
+</script>
